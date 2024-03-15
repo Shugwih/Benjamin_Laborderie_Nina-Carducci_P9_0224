@@ -2,18 +2,62 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/Clean/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<meta name="description" content="Nina Carducci, Photographe professionnel et passionée pour tous vos projets">
-	<script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
+	<meta name="description" content="Nina Carducci à Bordeaux, Photographe professionnel et passionée pour tous vos projets">
+	<script defer src="./assets/maugallery.min.js"></script>
+	<script defer src="./assets/scripts.min.js"></script>
 	<title>Nina Carducci</title>
+
+	<meta property="og:site_name" content="Nina Carducci, Bordeaux" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://monsiteweb.fr/ma-page-qui-dechire" />
+	<meta property="og:title" content="Nina Carducci, Photographe" />
+	<meta property="og:description" content="Photographe professionnel et passionnée" />
+	<meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina.png" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@ninacarducci" />
+	<meta name="twitter:title" content="Nina Carducci, Photographe" />
+	<meta name="twitter:description" content="Photographe professionnel et passionnée" />
+	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.png" />
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Nina Carducci",
+			"image": "https://nina-carducci.github.io/assets/images/nina.png",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace Lorraine",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Gironde",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"url": "https://github.com/Shugwih/Benjamin_Laborderie_Nina-Carducci_P9_0224.git",
+			"telephone": "+33556677889",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			]
+		}
+	</script>
 </head>
 <body>
 <header class="top-header">
@@ -24,7 +68,9 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Logo Instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
+				<img src="assets/images/instagram.webp" alt="Logo Instagram" height="91%" width="91%"></a>
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -38,36 +84,37 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920px.webp"
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320px.webp"
 				srcset="
-				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-300px.webp 300w,
-				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1140px.webp 1140w,
-				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1580px.webp 1580w,
-				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920px.webp 1920w," 
-				sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
+				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320px.webp 320w,
+				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-678px.webp 678w,
+				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1200px.webp 1200w,
+				./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920px.webp 1920w" 
+				height="100%" width="100%"
+				sizes="100vw"
 				class="d-block w-100" 
 				alt="Un homme vue de dos, sur un passage piéton">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920px.webp" 
+				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-300px.webp" 
 				srcset="
-				./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-300px.jpg 300w,
+				./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-300px.webp 300w,
 				./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1140px.webp 1140w,
 				./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1580px.webp 1580w,
 				./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920px.webp 1920w"
-				sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
+				sizes="100vw"
 				class="d-block w-100" 
 				alt="Deux jeunes hommes parmi une foule lors d'un évènement"
 				loading="lazy">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920px.webp" 
+				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-300px.webp" 
 				srcset="
-				./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-300px.jpg 300w,
+				./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-300px.webp 300w,
 				./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1140px.webp 1140w,
 				./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1580px.webp 1580w,
 				./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920px.webp 1920w"
-				sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
+				sizes="100vw"
 				class="d-block w-100" 
 				alt="Un couple de danseur lors d'une luxueuse réception"
 				loading="lazy">
@@ -85,12 +132,12 @@
 </div>
 <section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina1120px.webp" 
+		<img src="./assets/images/nina256px.webp" 
 		srcset="
 		./assets/images/nina256px.webp 256w,
-		./assets/images/nina560px.webp 560w,
-		./assets/images/nina890px.webp 890w,
-		./assets/images/nina1120px.webp 1120w"
+		./assets/images/nina350px.webp 350w,
+		./assets/images/nina890px.webp 890w,"
+		height="100%" width="100%"
 		sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
 		alt="La photographe, Nina Carducci">
 	</div>
@@ -107,13 +154,11 @@
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1090px.webp" 
 			srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1090px.webp 1090w,
-			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-848px.webp 848w,
-			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-728px.webp 728w,
 			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-608px.webp 608w,
 			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-448px.webp 448w,
-			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-224px.webp 224w,
+			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-240px.webp 240w,
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Point de vue d'un spectateur lors d'un concert" 
 			loading="lazy"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-1090px.webp" 
@@ -123,7 +168,7 @@
 			./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-448px.webp 448w,
 			./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-254px.webp 254w,
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Un homme vétu d'un élégant costume prend la pose" 
 			loading="lazy"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-1090px.webp" 
@@ -132,7 +177,7 @@
 			./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-608px.webp 608w,
 			./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-254px.webp 254w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Une femme joyeuse dans un bureau" 
 			loading="lazy"/>
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-1090px.webp" 
@@ -141,21 +186,20 @@
 			./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-608px.webp 608w,
 			./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-304px.webp 304w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Des mains s'approchant les unes des autres, symbole de rassemblement" 
 			loading="lazy"/>
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-1090px.webp" 
 			srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-1090px.webp 1090w,
 			./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-848px.webp 848w,
-			./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-728px.webp 728w,
 			./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-608px.webp 608w,
 			./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-448px.webp 448w,
 			./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-254px.webp 254w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Un homme ébloui par un flash lumineux" 
 			loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" 
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-1090px.webp" 
 			srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-1090px.webp 1090w,
 			./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-848px.webp 848w,
 			./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-728px.webp 728w,
@@ -163,7 +207,7 @@
 			./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-448px.webp 448w,
 			./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-254px.webp 254w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Un couple de jeunes mariés" 
 			loading="lazy"/>
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-1090px.webp" 
@@ -173,7 +217,7 @@
 			./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-448px.webp 448w,
 			./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-254px.webp 254w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="une jeune femme dans un environement urbain" 
 			loading="lazy"/>
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-1090px.webp" 
@@ -184,7 +228,7 @@
 			./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-448px.webp 448w,
 			./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-224px.webp 224w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Un chanteur sur scène lors d'un concert" 
 			loading="lazy">
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-1090px.webp" 
@@ -192,7 +236,7 @@
 			./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-848px.webp 848w,
 			./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-608px.webp 608w
 			"
-			sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
+			sizes="100vw"
 			alt="Une femme riant de bon coeur devant un ordinateur" 
 			loading="lazy"/>
 		</div>
@@ -270,11 +314,14 @@
 			srcset="./assets/images/camera419px.webp 419w,
 			./assets/images/camera838px.webp 838w
 			"
-			sizes="(min-width: 1600px) 419px, (min-width: 1200px) calc(28.16vw - 26px), (min-width: 1020px) calc(43.75vw - 68px), (min-width: 980px) calc(200vw - 1612px), (min-width: 680px) calc(42.86vw - 63px), (min-width: 640px) calc(-975vw + 6653px), calc(75.94vw - 58px)"
+			height="100%" width="100%"
+			sizes="100vw"
 			alt="Un appareil photo" 
 			loading="lazy">
 		</div>
 	</div>
 </section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </body>
 </html>

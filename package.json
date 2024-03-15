@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "compression-webpack-plugin": "^11.1.0",
+    "cssnano": "^6.1.0",
+    "postcss-cli": "^11.0.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
